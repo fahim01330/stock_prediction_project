@@ -1,9 +1,12 @@
 import { useState } from 'react'
+import './CSS/Style.css'
+import Main from './components/Main'
 
 function App() {
+
   return (
     <>
-      <h2>This is a App.jsx</h2>
+      <Main />
     </>
   )
 }
